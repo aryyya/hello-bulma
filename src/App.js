@@ -12,9 +12,8 @@ const App = () => {
           <div className="container center">
             <figure className="image">
               <img
-                className=""
-                style={{ maxWidth: '512px' }}
-                src="evil-corp-logo.jpg"
+                style={{ maxWidth: '256px' }}
+                src="evil-corp-logo.png"
                 alt="Evil Corp's logo." />
             </figure>
           </div>
