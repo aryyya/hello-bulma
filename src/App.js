@@ -1,15 +1,23 @@
 import React from 'react'
-import './App.css'
+import './App.scss'
 
 import '@fortawesome/fontawesome-free/css/all.css'
 import 'bulma'
 
-function App() {
+const App = () => {
   return (
     <div>
-      <section className="hero is-fullheight">
+      <section className="hero is-fullheight has-background-black">
         <div className="hero-body">
-          Hello, Bulma!
+          <div className="container center">
+            <figure className="image">
+              <img
+                className=""
+                style={{ maxWidth: '512px' }}
+                src="evil-corp-logo.jpg"
+                alt="Evil Corp's logo." />
+            </figure>
+          </div>
         </div>
       </section>
     </div>
